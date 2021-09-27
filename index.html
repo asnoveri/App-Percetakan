@@ -35,7 +35,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light nav-menu">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navbarscroll">
       <div class="container">
         <a class="navbar-brand p-0" href="#">
           <span class="ttl1">App</span><br />
@@ -55,16 +55,16 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link active menu" href="#">Home</a>
+              <a class="nav-link active menu" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link menu" href="#">Tentang kami</a>
+              <a class="nav-link menu" href="#ttgkami">Tentang kami</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link menu" href="#">Produk</a>
+              <a class="nav-link menu" href="#produk">Produk</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link menu" href="#">Bantuan</a>
+              <a class="nav-link menu" href="#testimonial"">Testimonial</a>
             </li>
             <li class="nav-item">
               <a class="btn btn-dark btn-gStar" href="#">GET STARTED</a>
@@ -75,6 +75,8 @@
     </nav>
     <!-- nav end -->
 
+    
+    <div data-spy="scroll" data-target="#navbarscroll" data-offset="0">
     <!-- home -->
     <section class="mt-5 home" id="home">
       <div class="container">
@@ -258,7 +260,7 @@
     <!-- end produk -->
 
     <!--  tetstimoni -->
-    <section class="testimonial">
+    <section class="testimonial" id="testimonial">
       <div class="container">
         <h3 class="mb-5 text-center testimonijdl">Testimoni</h3>
         <div
@@ -506,7 +508,7 @@
       </div>
     </section>
     <!-- end  testimoni -->
-
+</div>
     <!-- join us -->
     <section class="joinus">
       <div class="container">
@@ -540,7 +542,8 @@
         </div>
       </div>
     </section>
-
+ 
+  
     <!-- sitemap -->
     <section class="jumbotron jumbotron-fluid sitemap">
       <div class="container">

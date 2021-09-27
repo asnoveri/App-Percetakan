@@ -7,3 +7,10 @@ for (let i = 0; i < menus.length; i++) {
     this.className += " active";
   });
 }
+
+window.addEventListener("scroll", (event) => {
+  // console.log(window.scrollY);
+  // console.log(document.documentElement.scrollHeight);
+  // console.log(innerHeight);
+  // console.log(innerWidth);
+});
