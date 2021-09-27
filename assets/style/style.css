@@ -52,6 +52,21 @@ html {
 .carpProduk {
   box-shadow: 1px 1px 20px lightgrey;
 }
+
+.jdl {
+  margin-bottom: 1px;
+}
+
+.jenisProduk {
+  margin-bottom: 1px;
+}
+.harga {
+  margin-bottom: 1px;
+}
+.descproduk {
+  font-size: 10px;
+}
+
 /* crousel icon */
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
@@ -91,7 +106,8 @@ html {
   border-color: black transparent transparent transparent;
   display: block;
 }
-.isicoment {
+.isicoment,
+.descproduk {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 7;
@@ -231,6 +247,9 @@ img.img-jns {
   }
   .harga {
     font-size: 15px;
+  }
+  .descproduk {
+    font-size: 11px;
   }
 
   .bText {
