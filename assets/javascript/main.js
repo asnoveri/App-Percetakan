@@ -11,6 +11,7 @@ function clickHandler(e) {
   document.querySelector(href).scrollIntoView({
     behavior: "smooth",
     block: "end",
+    inline: "end",
   });
 }
 
